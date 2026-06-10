@@ -3,13 +3,19 @@ from discord.ext import commands
 from discord import app_commands
 import asyncio
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 # ─────────────────────────────────────────────
 #  EASY CONFIGURATION — Edit everything here
 # ─────────────────────────────────────────────
 CONFIG = {
-    "TOKEN": "DISCORD_TOKEN_HERE",
+    "TOKEN": os.getenv("DISCORD_TOKEN"),
+    
     "STAFF_ROLE_NAME": "🙋",
 
+    # Category names the bot will create automatically (if it doesn't already exist)
     "CATEGORY_QUESTIONS":  "📩 Questions",
     "CATEGORY_SUPPORT":    "🔧 Product Support",
     "CATEGORY_WHOLESALE":  "📦 Wholesale",
@@ -17,7 +23,7 @@ CONFIG = {
 
     "TICKET_PREFIX": "ticket",
 
-    # Panel embed (the message users click to open a ticket)
+    # Panel embed (the message users click to open a ticket) ──
     "PANEL_TITLE": "Nebula — Tickets",
     "PANEL_DESCRIPTION": (
         "Welcome to Nebula Support! 👋\n\n"
