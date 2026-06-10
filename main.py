@@ -1,11 +1,3 @@
-"""
-╔══════════════════════════════════════════════════════╗
-║           NEBULA TICKETS BOT — Configuration         ║
-╚══════════════════════════════════════════════════════╝
-
-All settings you'll ever need to change are in the CONFIG block below.
-"""
-
 import discord
 from discord.ext import commands
 from discord import app_commands
