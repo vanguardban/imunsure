@@ -1,7 +1,7 @@
 # 🎫 Nebula Ticket Bot
 # A simple, clean Discord ticket bot built with discord.py. Drop a support panel anywhere in your server and let users open tickets in seconds.
 
-✨ Features
+# ✨ Features
 
 📂 3 Ticket Categories — Questions, Product Support & Wholesale
 🏗️ Auto Category Creation — Creates Discord categories automatically if they don't exist
@@ -12,11 +12,11 @@
 ⚙️ One-Block Config — All names, colours, messages & categories are edited in a single CONFIG block — no hunting through code
 
 
-🚀 Setup
+# 🚀 Setup
 
 Clone the repo and install dependencies:
 ```
-bashpip install discord.py
+pip install discord.py
 ```
 Add your token, inside the .env file
 Edit the CONFIG block at the top of the file to match your server
