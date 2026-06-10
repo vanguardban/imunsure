@@ -1,6 +1,6 @@
 # ✨ Features
 
-📂 3 Ticket Categories — Questions, Product Support & Wholesale \n
+📂 3 Ticket Categories — Questions, Product Support & Wholesale <br/>
 🏗️ Auto Category Creation — Creates Discord categories automatically if they don't exist
 
 🔒 Private Channels — Each ticket is visible only to the user and staff
