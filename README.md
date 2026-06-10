@@ -1,6 +1,3 @@
-# 🎫 Nebula Ticket Bot
-# A simple, clean Discord ticket bot built with discord.py. Drop a support panel anywhere in your server and let users open tickets in seconds.
-
 # ✨ Features
 
 📂 3 Ticket Categories — Questions, Product Support & Wholesale
