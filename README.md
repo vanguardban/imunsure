@@ -13,8 +13,8 @@ Clone the repo and install dependencies:
 ```
 pip install discord.py
 ```
-Add your token, inside the .env file
-Edit the CONFIG block at the top of the file to match your server
+Add your token, inside the .env file <br/>
+Edit the CONFIG block at the top of the file to match your server <br/>
 Run the bot:
 ```
 python bot.py
